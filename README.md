@@ -34,10 +34,13 @@ $ cp -r client server/volumes/web
   - WebApplicationServer에 대한 프록시 연결
 - NginX(Webserver)
   - introduce.effozen.com에 대한 요청 처리
-- WebApplicationServer
+- Node.js(WebApplicationServer)
   - effozen.com/api/project/shinhan으로 오는 요청 처리
-- Relative Database
+- MySQL(Relative Database)
   - WebApplicationServer와 직접 소통
+- Jenkins(CI/CD)
+  - CI/CD 환경 구축
+  - 깃허브에 액션이 발생할 때마다 받아와서 빌드
 
 ## 🚀 테스트 🚀
 
